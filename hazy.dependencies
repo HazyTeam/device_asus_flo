@@ -1,0 +1,14 @@
+[
+  {
+    "remote": "github",
+    "repository": "HazyTeam/vendor_asus_flo",
+    "target_path": "vendor/asus/flo",
+    "revision": "kitkat"
+  },
+  {
+    "remote": "github",
+    "repository": "HazyTeam/kernel_asus_flo",
+    "target_path": "kernel/asus/flo",
+    "revision": "kitkat"
+  }
+]
