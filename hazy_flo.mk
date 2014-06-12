@@ -42,5 +42,6 @@ TARGET_SELINUX_CONFIG := flo_defconfig
 # Inherit from hardware-specific part of the product configuration
 $(call inherit-product, device/asus/flo/device.mk)
 $(call inherit-product-if-exists, vendor/asus/flo/device-vendor.mk)
+$(call inherit-product, vendor/twixkat/device-partial.mk)
 #$(call inherit-product-if-exists, vendor/qcom/proprietary/common/config/device-vendor.mk)
 
