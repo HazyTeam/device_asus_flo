@@ -21,7 +21,7 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
 
 # Inherit from our Hazy product configuration
-$(call inherit-product, vendor/twixkat/configs/common-tablet.mk)
+$(call inherit-product, vendor/twixkat/configs/common_tablet.mk)
 
 PRODUCT_PACKAGES += \
     Launcher3
@@ -44,4 +44,3 @@ $(call inherit-product, device/asus/flo/device.mk)
 $(call inherit-product-if-exists, vendor/asus/flo/device-vendor.mk)
 $(call inherit-product, vendor/twixkat/device-partial.mk)
 #$(call inherit-product-if-exists, vendor/qcom/proprietary/common/config/device-vendor.mk)
-
