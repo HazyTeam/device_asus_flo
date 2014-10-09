@@ -1,17 +1,5 @@
 [
   {
-    "remote":       "github",
-    "repository":   "AOSPA/android_hardware_qcom_power",
-    "target_path":  "hardware/qcom/power",
-    "revision":     "kitkat"
-  },
-  {
-    "remote":       "github",
-    "repository":   "AOSPA/android_hardware_qcom_display",
-    "target_path":  "hardware/qcom/display",
-    "revision":     "kitkat"
-  },
-  {
     "remote":       "aosp",
     "repository":   "platform/hardware/qcom/media",
     "target_path":  "hardware/qcom/media",
@@ -60,8 +48,8 @@
     "revision":     "refs/tags/android-4.4.4_r2.0.1"
   },
   {
-    "remote":       "blobs",
-    "repository":   "proprietary_vendor_asus_flo",
+    "remote":       "github",
+    "repository":   "HazyTeam/vendor_asus_flo",
     "target_path":  "vendor/asus/flo",
     "revision":     "kitkat"
   }
